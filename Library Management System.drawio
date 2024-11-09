@@ -82,29 +82,35 @@
         <mxCell id="RcvgGcVL2dAxraY7EbwN-32" value="+ void checkOutItem(LibraryItem item)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RcvgGcVL2dAxraY7EbwN-17">
           <mxGeometry y="138" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="RcvgGcVL2dAxraY7EbwN-21" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1186" y="450" width="160" height="86" as="geometry" />
+        <mxCell id="RcvgGcVL2dAxraY7EbwN-21" value="Librarian" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="774" y="566" width="316" height="112" as="geometry" />
         </mxCell>
-        <mxCell id="RcvgGcVL2dAxraY7EbwN-22" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RcvgGcVL2dAxraY7EbwN-21">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        <mxCell id="RcvgGcVL2dAxraY7EbwN-22" value="-&amp;nbsp;String name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RcvgGcVL2dAxraY7EbwN-21">
+          <mxGeometry y="26" width="316" height="26" as="geometry" />
         </mxCell>
         <mxCell id="RcvgGcVL2dAxraY7EbwN-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="RcvgGcVL2dAxraY7EbwN-21">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
+          <mxGeometry y="52" width="316" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="RcvgGcVL2dAxraY7EbwN-24" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RcvgGcVL2dAxraY7EbwN-21">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        <mxCell id="RcvgGcVL2dAxraY7EbwN-33" value="+ Librarian(String name)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RcvgGcVL2dAxraY7EbwN-21">
+          <mxGeometry y="60" width="316" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="RcvgGcVL2dAxraY7EbwN-25" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1176" y="579" width="160" height="86" as="geometry" />
+        <mxCell id="RcvgGcVL2dAxraY7EbwN-24" value="+ void addItemToLibrary(Library library, LibraryItem item)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RcvgGcVL2dAxraY7EbwN-21">
+          <mxGeometry y="86" width="316" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="RcvgGcVL2dAxraY7EbwN-26" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RcvgGcVL2dAxraY7EbwN-25">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        <mxCell id="RcvgGcVL2dAxraY7EbwN-25" value="Member" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1176" y="579" width="280" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="RcvgGcVL2dAxraY7EbwN-26" value="-&amp;nbsp;String memberId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RcvgGcVL2dAxraY7EbwN-25">
+          <mxGeometry y="26" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="RcvgGcVL2dAxraY7EbwN-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="RcvgGcVL2dAxraY7EbwN-25">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
+          <mxGeometry y="52" width="280" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="RcvgGcVL2dAxraY7EbwN-28" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RcvgGcVL2dAxraY7EbwN-25">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        <mxCell id="RcvgGcVL2dAxraY7EbwN-28" value="+ Member(String memberId)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RcvgGcVL2dAxraY7EbwN-25">
+          <mxGeometry y="60" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RcvgGcVL2dAxraY7EbwN-34" value="+&amp;nbsp;void borrowItem(Library library, LibraryItem item)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RcvgGcVL2dAxraY7EbwN-25">
+          <mxGeometry y="86" width="280" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
